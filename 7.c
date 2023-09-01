@@ -9,7 +9,7 @@ int func(void){
 
 int main(){
     int i, j, k;
-    func();
+    //func();
     signal(18, func());
 
     if(i=fork()){
